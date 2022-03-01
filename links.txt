@@ -1,1 +1,11 @@
+React Snippets
+----------------
 https://github.com/dsznajder/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md
+
+Squelize ORM - to connect to SQL server
+----------------------------------------
+https://sequelize.org/v5/manual/models-usage.html
+
+Mongoose ORM - to connect to MongoDB
+---------------------------------------
+https://mongoosejs.com/docs/guide.html#versionKey

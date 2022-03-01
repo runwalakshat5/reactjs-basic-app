@@ -1,5 +1,15 @@
 import LifeCycleA from "./10.life-cycle-methods/LifeCycleA";
+import PostApi from "./11.ajax-calls/PostApi";
+import StudentMongoApi from "./11.ajax-calls/StudentMongoApi";
+import StudentSQLApi from "./11.ajax-calls/StudentSQLApi";
 import TodoApi from "./11.ajax-calls/TodoApi";
+import UserApi from "./11.ajax-calls/UserApi";
+import Routing from "./12.routing/Routing";
+import ClassCounter from "./13.hooks/ClassCounter";
+import HookApi from "./13.hooks/HookApi";
+import HookCounter from "./13.hooks/HookCounter";
+import HookUsingObject from "./13.hooks/HookUsingObject";
+import UseContextHook from "./13.hooks/UseContextHook";
 import Hello from "./2.jsx/Hello";
 import Greeting from "./3.props/Greeting";
 import Welcome from "./3.props/Welcome";
@@ -41,8 +51,18 @@ function App() {
     return message
   }
   return (
-    <div className="container">
-      <TodoApi />
+    <div>
+      <UseContextHook />
+      {/* <HookApi /> */}
+      {/* <HookUsingObject /> */}
+      {/* <HookCounter /> */}
+      {/* <ClassCounter /> */}
+      {/* <Routing /> */}
+      {/* <StudentMongoApi /> */}
+      {/* <StudentSQLApi /> */}
+      {/* <UserApi /> */}
+      {/* <PostApi /> */}
+      {/* <TodoApi /> */}
       {/* <LifeCycleA /> */}
       {/* <UserFormOne /> */}
       {/* <UserForm /> */}
